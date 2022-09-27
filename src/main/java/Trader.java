@@ -56,8 +56,9 @@ public class Trader<T> {
      */
 
     /**
-     * Add an object of type T to this Trader's wish list.
-     * @param wish_item a new item of this Trader's wish list.
+     * Add the object wish_item to this Trader's wish list.
+     *
+     * @param wish_item a new item to be added to this Trader's wish list.
      */
     public void addToWishlist(T wish_item){
         this.wishlist.add(wish_item);
